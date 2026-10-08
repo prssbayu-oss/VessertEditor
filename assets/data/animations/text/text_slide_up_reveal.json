@@ -1,0 +1,18 @@
+{
+  "mode": "line_mask",
+  "translateYPx": [
+    60,
+    0
+  ],
+  "opacity": [
+    0,
+    1
+  ],
+  "ease": [
+    0.16,
+    1,
+    0.3,
+    1
+  ],
+  "durationMs": 400
+}

@@ -1,0 +1,6 @@
+{
+  "shader": "film_roll",
+  "direction": "vertical",
+  "frameGaps": true,
+  "durationMs": 350
+}

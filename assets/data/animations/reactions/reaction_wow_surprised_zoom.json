@@ -1,0 +1,9 @@
+{
+  "scale": [
+    0.8,
+    1.5,
+    1
+  ],
+  "eyeEnlargeFactor": 1.25,
+  "durationMs": 500
+}

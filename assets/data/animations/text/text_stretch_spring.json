@@ -1,0 +1,10 @@
+{
+  "mode": "elastic_pull",
+  "scaleY": [
+    1.6,
+    0.8,
+    1.1,
+    1
+  ],
+  "durationMs": 450
+}

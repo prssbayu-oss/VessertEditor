@@ -1,0 +1,8 @@
+{
+  "shader": "mask_circle",
+  "center": [
+    0.5,
+    0.5
+  ],
+  "durationMs": 380
+}

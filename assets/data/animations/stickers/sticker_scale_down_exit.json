@@ -1,0 +1,13 @@
+{
+  "type": "exit",
+  "scale": [
+    1,
+    0
+  ],
+  "opacity": [
+    1,
+    0
+  ],
+  "ease": "backIn",
+  "durationMs": 300
+}

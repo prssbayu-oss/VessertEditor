@@ -1,0 +1,11 @@
+{
+  "mode": "rgb_split",
+  "shiftPx": [
+    0,
+    15,
+    -8,
+    12,
+    0
+  ],
+  "durationMs": 250
+}

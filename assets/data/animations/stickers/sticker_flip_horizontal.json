@@ -1,0 +1,9 @@
+{
+  "type": "transition",
+  "scaleX": [
+    1,
+    0,
+    -1
+  ],
+  "durationMs": 350
+}

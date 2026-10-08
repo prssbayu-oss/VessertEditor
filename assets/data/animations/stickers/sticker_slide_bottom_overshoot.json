@@ -1,0 +1,18 @@
+{
+  "type": "intro",
+  "from": {
+    "y": 300,
+    "opacity": 0
+  },
+  "to": {
+    "y": 0,
+    "opacity": 1
+  },
+  "ease": [
+    0.18,
+    1.2,
+    0.3,
+    1
+  ],
+  "durationMs": 450
+}

@@ -1,0 +1,9 @@
+{
+  "shader": "whip_pan",
+  "direction": [
+    -1,
+    0
+  ],
+  "blurPx": 25,
+  "durationMs": 280
+}

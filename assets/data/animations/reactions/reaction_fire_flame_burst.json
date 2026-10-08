@@ -1,0 +1,6 @@
+{
+  "particleCount": 24,
+  "flameSpeed": 180,
+  "smokeAlpha": 0.4,
+  "durationMs": 700
+}

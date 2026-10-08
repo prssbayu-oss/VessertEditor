@@ -1,0 +1,6 @@
+{
+  "mode": "per_char_bounce",
+  "bounceHeightPx": 25,
+  "delayPerCharMs": 40,
+  "damping": 15
+}

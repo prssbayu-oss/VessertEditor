@@ -1,0 +1,10 @@
+{
+  "mode": "gradient_shift",
+  "gradientStops": [
+    "#FF007F",
+    "#7928CA",
+    "#0070F3",
+    "#00DFD8"
+  ],
+  "speedHz": 0.5
+}

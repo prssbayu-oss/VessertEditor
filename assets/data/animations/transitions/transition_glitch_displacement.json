@@ -1,0 +1,6 @@
+{
+  "shader": "glitch",
+  "blockNoise": true,
+  "chromaticOffset": 0.04,
+  "durationMs": 220
+}

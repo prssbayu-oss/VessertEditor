@@ -1,0 +1,9 @@
+{
+  "shader": "burn_dissolve",
+  "edgeGlowColor": [
+    1,
+    0.4,
+    0
+  ],
+  "durationMs": 420
+}

@@ -1,0 +1,5 @@
+{
+  "shader": "dissolve",
+  "blend": "linear",
+  "durationMs": 350
+}

@@ -1,0 +1,10 @@
+{
+  "mode": "glow",
+  "flickerFrequenciesHz": [
+    14,
+    28,
+    60
+  ],
+  "glowRadiusPx": 25,
+  "glowHex": "#00F5FF"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "attention",
+  "skewXDeg": [
+    -12,
+    10,
+    -6,
+    4,
+    0
+  ],
+  "skewYDeg": [
+    -12,
+    10,
+    -6,
+    4,
+    0
+  ],
+  "durationMs": 700
+}

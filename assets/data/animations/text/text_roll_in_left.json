@@ -1,0 +1,12 @@
+{
+  "mode": "roll",
+  "translateX": [
+    -200,
+    0
+  ],
+  "rotateDeg": [
+    -180,
+    0
+  ],
+  "durationMs": 450
+}

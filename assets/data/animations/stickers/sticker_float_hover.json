@@ -1,0 +1,9 @@
+{
+  "type": "loop",
+  "translationYPx": [
+    -15,
+    15
+  ],
+  "ease": "sineInOut",
+  "durationMs": 1800
+}

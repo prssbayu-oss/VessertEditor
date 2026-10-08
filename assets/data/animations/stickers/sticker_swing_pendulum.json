@@ -1,0 +1,13 @@
+{
+  "type": "loop",
+  "rotateDeg": [
+    -15,
+    15
+  ],
+  "origin": [
+    0.5,
+    0
+  ],
+  "ease": "sineInOut",
+  "durationMs": 1200
+}

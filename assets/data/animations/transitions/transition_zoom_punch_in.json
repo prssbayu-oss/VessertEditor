@@ -1,0 +1,6 @@
+{
+  "shader": "zoom",
+  "scaleStart": 1,
+  "scaleEnd": 2.2,
+  "durationMs": 300
+}

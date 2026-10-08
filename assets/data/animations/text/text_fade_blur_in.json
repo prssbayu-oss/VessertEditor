@@ -1,0 +1,12 @@
+{
+  "mode": "blur_dissolve",
+  "blurRadiusPx": [
+    20,
+    0
+  ],
+  "opacity": [
+    0,
+    1
+  ],
+  "durationMs": 450
+}

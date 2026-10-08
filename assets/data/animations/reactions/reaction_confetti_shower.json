@@ -1,0 +1,11 @@
+{
+  "particleCount": 50,
+  "colors": [
+    "#FF0055",
+    "#00E5FF",
+    "#FFDF00",
+    "#00FF66"
+  ],
+  "gravity": 250,
+  "durationMs": 1500
+}

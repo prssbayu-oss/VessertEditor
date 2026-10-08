@@ -1,0 +1,13 @@
+{
+  "type": "intro",
+  "rotateDeg": [
+    0,
+    360
+  ],
+  "scale": [
+    0,
+    1
+  ],
+  "ease": "backOut",
+  "durationMs": 500
+}

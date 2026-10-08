@@ -1,0 +1,9 @@
+{
+  "mode": "stamp_impact",
+  "scale": [
+    3,
+    1
+  ],
+  "screenShakePx": 8,
+  "durationMs": 250
+}

@@ -1,0 +1,12 @@
+{
+  "mode": "zoom_punch",
+  "scale": [
+    2.5,
+    1
+  ],
+  "opacity": [
+    0,
+    1
+  ],
+  "durationMs": 300
+}

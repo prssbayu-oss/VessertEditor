@@ -1,0 +1,5 @@
+{
+  "shader": "pixelize",
+  "maxBlockSize": 32,
+  "durationMs": 300
+}

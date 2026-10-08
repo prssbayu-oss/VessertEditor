@@ -1,0 +1,6 @@
+{
+  "shader": "ripple",
+  "waveFreq": 30,
+  "maxDistortion": 0.03,
+  "durationMs": 400
+}

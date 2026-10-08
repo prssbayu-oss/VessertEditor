@@ -1,0 +1,12 @@
+{
+  "type": "exit",
+  "yPx": [
+    0,
+    -80
+  ],
+  "opacity": [
+    1,
+    0
+  ],
+  "durationMs": 350
+}

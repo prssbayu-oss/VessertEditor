@@ -1,0 +1,5 @@
+{
+  "mode": "ticker_loop",
+  "speedPxPerSec": 150,
+  "direction": "left"
+}

@@ -1,0 +1,5 @@
+{
+  "shader": "curl_3d",
+  "shadowStrength": 0.6,
+  "durationMs": 450
+}

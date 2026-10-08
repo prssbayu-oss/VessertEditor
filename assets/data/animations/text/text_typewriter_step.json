@@ -1,0 +1,6 @@
+{
+  "mode": "character",
+  "delayPerCharMs": 50,
+  "cursorBlink": true,
+  "audioSync": "click_mechanical"
+}

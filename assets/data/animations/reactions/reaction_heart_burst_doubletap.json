@@ -1,0 +1,11 @@
+{
+  "particleCount": 16,
+  "spreadRadiusPx": 120,
+  "gravity": -80,
+  "scale": [
+    0.5,
+    1.4,
+    0
+  ],
+  "durationMs": 650
+}

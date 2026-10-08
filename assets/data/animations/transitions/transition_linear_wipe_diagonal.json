@@ -1,0 +1,6 @@
+{
+  "shader": "wipe",
+  "angleDeg": 45,
+  "softness": 0.1,
+  "durationMs": 320
+}

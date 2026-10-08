@@ -1,0 +1,12 @@
+{
+  "type": "loop",
+  "frequencyHz": 4,
+  "rotationAnglesDeg": [
+    -8,
+    8,
+    -6,
+    6,
+    0
+  ],
+  "durationMs": 600
+}

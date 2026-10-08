@@ -1,0 +1,9 @@
+{
+  "mode": "word_by_word",
+  "scale": [
+    0.4,
+    1.15,
+    1
+  ],
+  "delayBetweenWordsMs": 90
+}

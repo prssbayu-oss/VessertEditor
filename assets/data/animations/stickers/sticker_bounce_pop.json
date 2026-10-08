@@ -1,0 +1,13 @@
+{
+  "type": "spring",
+  "stiffness": 350,
+  "damping": 18,
+  "mass": 1,
+  "scaleKeyframes": [
+    0,
+    1.25,
+    0.95,
+    1
+  ],
+  "durationMs": 400
+}
