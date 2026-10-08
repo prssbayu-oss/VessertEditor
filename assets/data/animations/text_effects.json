@@ -1,0 +1,26 @@
+{
+  "typewriter": {
+    "cursorBlinkMs": 500,
+    "charDelayMs": 45,
+    "audioClickSync": true
+  },
+  "karaoke_bounce": {
+    "highlightColor": "#FFDD00",
+    "scaleMultiplier": 1.25,
+    "wordTransitionMs": 150
+  },
+  "neon_flicker": {
+    "frequenciesHz": [
+      12,
+      24,
+      60
+    ],
+    "glowRadiusPx": 20,
+    "glowColor": "#00E5FF"
+  },
+  "wave_shimmer": {
+    "wavelengthPx": 120,
+    "speedMultiplier": 2,
+    "angleDeg": 45
+  }
+}

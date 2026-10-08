@@ -1,0 +1,38 @@
+{
+  "instagram_story_1080x1920": {
+    "width": 1080,
+    "height": 1920,
+    "safeArea": {
+      "top": 250,
+      "bottom": 280,
+      "left": 40,
+      "right": 40
+    },
+    "hazardTopDescription": "Profile icon, username, close button, time indicator",
+    "hazardBottomDescription": "Direct message send reply bar, share & like buttons"
+  },
+  "tiktok_video_1080x1920": {
+    "width": 1080,
+    "height": 1920,
+    "safeArea": {
+      "top": 200,
+      "bottom": 360,
+      "left": 40,
+      "right": 180
+    },
+    "hazardRightDescription": "Creator avatar follow, like heart, comment, bookmark, share buttons",
+    "hazardBottomDescription": "Username, caption multiline, sound vinyl disc animation"
+  },
+  "youtube_shorts_1080x1920": {
+    "width": 1080,
+    "height": 1920,
+    "safeArea": {
+      "top": 180,
+      "bottom": 320,
+      "left": 40,
+      "right": 160
+    },
+    "hazardRightDescription": "Thumb up, thumb down, comments, share, remix",
+    "hazardBottomDescription": "Channel name, Subscribe button, sound title"
+  }
+}

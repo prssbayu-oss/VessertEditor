@@ -1,0 +1,74 @@
+{
+  "story_reels_tiktok": {
+    "ratio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "fps": [
+      30,
+      60
+    ],
+    "orientation": "portrait",
+    "useCases": [
+      "Instagram Reels",
+      "Instagram Stories",
+      "TikTok",
+      "YouTube Shorts"
+    ]
+  },
+  "square_feed": {
+    "ratio": "1:1",
+    "width": 1080,
+    "height": 1080,
+    "fps": [
+      30,
+      60
+    ],
+    "orientation": "square",
+    "useCases": [
+      "Instagram Post",
+      "Facebook Feed",
+      "LinkedIn Square"
+    ]
+  },
+  "portrait_feed": {
+    "ratio": "4:5",
+    "width": 1080,
+    "height": 1350,
+    "fps": [
+      30,
+      60
+    ],
+    "orientation": "portrait",
+    "useCases": [
+      "Instagram Portrait Post"
+    ]
+  },
+  "landscape_standard": {
+    "ratio": "16:9",
+    "width": 1920,
+    "height": 1080,
+    "fps": [
+      30,
+      60
+    ],
+    "orientation": "landscape",
+    "useCases": [
+      "YouTube Video",
+      "Twitter Video",
+      "Facebook Landscape"
+    ]
+  },
+  "ultra_hd_vertical": {
+    "ratio": "9:16",
+    "width": 2160,
+    "height": 3840,
+    "fps": [
+      30,
+      60
+    ],
+    "orientation": "portrait",
+    "useCases": [
+      "4K HDR Mobile Master Export"
+    ]
+  }
+}

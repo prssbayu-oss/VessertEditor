@@ -1,0 +1,52 @@
+{
+  "crossfade": {
+    "type": "dissolve",
+    "durationMs": 300,
+    "shader": "transition_dissolve"
+  },
+  "whip_pan_left": {
+    "type": "motion_blur_pan",
+    "direction": [
+      -1,
+      0
+    ],
+    "durationMs": 250,
+    "blurAmount": 1.5
+  },
+  "whip_pan_right": {
+    "type": "motion_blur_pan",
+    "direction": [
+      1,
+      0
+    ],
+    "durationMs": 250,
+    "blurAmount": 1.5
+  },
+  "zoom_punch_in": {
+    "type": "scale_warp",
+    "scaleStart": 1,
+    "scaleEnd": 1.8,
+    "durationMs": 280
+  },
+  "zoom_punch_out": {
+    "type": "scale_warp",
+    "scaleStart": 1.8,
+    "scaleEnd": 1,
+    "durationMs": 280
+  },
+  "rgb_split_glitch": {
+    "type": "chromatic_shift",
+    "aberrationPx": 24,
+    "durationMs": 200
+  },
+  "iris_circle_open": {
+    "type": "mask_reveal",
+    "shape": "circle",
+    "durationMs": 350
+  },
+  "flash_white": {
+    "type": "additive_white",
+    "peakIntensity": 1,
+    "durationMs": 180
+  }
+}

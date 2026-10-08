@@ -1,0 +1,43 @@
+{
+  "version": "MediaPipe-FaceMesh-468",
+  "anchorIndices": {
+    "forehead_center": 10,
+    "nose_tip": 1,
+    "nose_bridge": 168,
+    "chin_bottom": 152,
+    "left_eye_center": 468,
+    "right_eye_center": 473,
+    "left_eye_outer": 33,
+    "right_eye_outer": 263,
+    "left_ear_tragus": 234,
+    "right_ear_tragus": 454,
+    "mouth_center": 13,
+    "mouth_left_corner": 61,
+    "mouth_right_corner": 291
+  },
+  "regions": {
+    "glasses_bounding_points": [
+      33,
+      168,
+      263,
+      1
+    ],
+    "hat_crown_points": [
+      10,
+      338,
+      297,
+      332,
+      284
+    ],
+    "mustache_points": [
+      1,
+      2,
+      98,
+      327,
+      61,
+      291
+    ],
+    "earring_left": 234,
+    "earring_right": 454
+  }
+}

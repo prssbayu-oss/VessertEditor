@@ -1,0 +1,53 @@
+{
+  "facingModes": {
+    "front": {
+      "mode": "user",
+      "defaultResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "recommendedZoom": 1,
+      "mirrorByDefault": true,
+      "audioTrackEnabled": true
+    },
+    "rear_wide": {
+      "mode": "environment",
+      "defaultResolution": {
+        "width": 1080,
+        "height": 1920
+      },
+      "opticalZoomStep": 1,
+      "mirrorByDefault": false,
+      "torchCapable": true
+    },
+    "rear_ultrawide": {
+      "mode": "environment",
+      "focalLengthEquivalentMm": 13,
+      "fieldOfViewDeg": 120,
+      "opticalZoomStep": 0.5
+    },
+    "rear_telephoto": {
+      "mode": "environment",
+      "focalLengthEquivalentMm": 77,
+      "fieldOfViewDeg": 32,
+      "opticalZoomStep": 3
+    }
+  },
+  "whiteBalancePresets": [
+    "auto",
+    "daylight",
+    "cloudy",
+    "incandescent",
+    "fluorescent"
+  ],
+  "exposureCompensationRange": {
+    "min": -2,
+    "max": 2,
+    "step": 0.1
+  },
+  "torchModes": [
+    "off",
+    "torch",
+    "pulse"
+  ]
+}
