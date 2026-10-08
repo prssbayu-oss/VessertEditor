@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="warnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="600" height="450" rx="28" fill="url(#bgGrad)"/>
+  <rect width="600" height="450" rx="28" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+
+  <!-- Subtle floor shadow and horizon -->
+  <ellipse cx="300" cy="390" rx="220" ry="24" fill="#000000" opacity="0.3"/>
+
+  <!-- Quiet Bell Outline -->
+  <g transform="translate(300, 180)">
+    <path d="M-40 40 C-35 10 -30 -30 0 -40 C30 -30 35 10 40 40 Z" fill="#1e293b" stroke="#475569" stroke-width="4" stroke-dasharray="8 6" filter="url(#softShadow)"/>
+    <rect x="-46" y="38" width="92" height="12" rx="6" fill="#334155"/>
+    <circle cx="0" cy="54" r="10" fill="#475569"/>
+    <!-- Crescent Moon / Quiet Night -->
+    <path d="M60 -30 A 24 24 0 0 0 90 -10 A 30 30 0 1 1 60 -30 Z" fill="#facc15"/>
+  </g>
+  <text x="300" y="380" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#f8fafc" text-anchor="middle">All Caught Up!</text>
+  <text x="300" y="405" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">No new notifications at this time</text>
+
+</svg>

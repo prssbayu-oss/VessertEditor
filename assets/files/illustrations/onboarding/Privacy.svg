@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="warnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="600" height="450" rx="28" fill="url(#bgGrad)"/>
+  <rect width="600" height="450" rx="28" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+
+  <!-- Subtle floor shadow and horizon -->
+  <ellipse cx="300" cy="390" rx="220" ry="24" fill="#000000" opacity="0.3"/>
+
+  <!-- Private Incognito Vault / Concealed Eye -->
+  <circle cx="300" cy="190" r="120" fill="#8b5cf6" opacity="0.12"/>
+  <!-- Venetian / Masquerade Mask / Private Glasses -->
+  <g transform="translate(300, 175)">
+    <!-- Sleek sunglasses / visor -->
+    <path d="M-80 -10 C-40 -16 -10 0 0 0 C10 0 40 -16 80 -10 C90 20 60 50 20 40 C0 35 -10 35 -20 40 C-60 50 -90 20 -80 -10 Z" fill="#1e1b4b" stroke="#8b5cf6" stroke-width="3" filter="url(#softShadow)"/>
+    <!-- Glare Lines on Visor -->
+    <line x1="-50" y1="5" x2="-20" y2="25" stroke="#a78bfa" stroke-width="4" stroke-linecap="round"/>
+    <line x1="20" y1="5" x2="50" y2="25" stroke="#a78bfa" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <!-- Vault Dial / Key Lock Below -->
+  <circle cx="300" cy="275" r="32" fill="#1e293b" stroke="#8b5cf6" stroke-width="3"/>
+  <circle cx="300" cy="275" r="10" fill="#8b5cf6"/>
+  <line x1="300" y1="247" x2="300" y2="253" stroke="#ffffff" stroke-width="3"/>
+  <line x1="328" y1="275" x2="322" y2="275" stroke="#ffffff" stroke-width="3"/>
+  <line x1="300" y1="303" x2="300" y2="297" stroke="#ffffff" stroke-width="3"/>
+  <line x1="272" y1="275" x2="278" y2="275" stroke="#ffffff" stroke-width="3"/>
+  <text x="300" y="380" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Your Privacy, Protected</text>
+
+</svg>

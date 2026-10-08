@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="warnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="600" height="450" rx="28" fill="url(#bgGrad)"/>
+  <rect width="600" height="450" rx="28" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+
+  <!-- Subtle floor shadow and horizon -->
+  <ellipse cx="300" cy="390" rx="220" ry="24" fill="#000000" opacity="0.3"/>
+
+  <!-- Big Triumphant Checkmark / Success Badge -->
+  <circle cx="300" cy="200" r="130" fill="#10b981" opacity="0.15"/>
+  <circle cx="300" cy="200" r="70" fill="url(#greenGrad)" filter="url(#softShadow)"/>
+  <!-- Crisp Checkmark -->
+  <path d="M265 200 L290 225 L340 170" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Floating Confetti & Laurels -->
+  <circle cx="210" cy="140" r="8" fill="#f59e0b"/>
+  <rect x="390" y="130" width="14" height="14" rx="3" fill="#ec4899" transform="rotate(30 390 130)"/>
+  <polygon points="180,260 190,275 170,275" fill="#3b82f6"/>
+  <circle cx="420" cy="260" r="10" fill="#8b5cf6"/>
+  <text x="300" y="340" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">You're All Set!</text>
+  <text x="300" y="365" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">Ready to jump straight into the application</text>
+
+</svg>

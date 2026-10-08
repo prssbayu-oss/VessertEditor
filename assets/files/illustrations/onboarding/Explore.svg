@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="warnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="600" height="450" rx="28" fill="url(#bgGrad)"/>
+  <rect width="600" height="450" rx="28" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+
+  <!-- Subtle floor shadow and horizon -->
+  <ellipse cx="300" cy="390" rx="220" ry="24" fill="#000000" opacity="0.3"/>
+
+  <!-- Exploration Map / Compass Rose / Waypoints -->
+  <circle cx="300" cy="200" r="120" fill="#10b981" opacity="0.12"/>
+  <!-- Folded Map Board -->
+  <polygon points="170,140 250,120 350,140 430,120 430,280 350,300 250,280 170,300" fill="#1e293b" stroke="#334155" stroke-width="2" filter="url(#softShadow)"/>
+  <!-- Map Topography Paths -->
+  <path d="M190 260 Q 260 180 330 240 T 410 180" fill="none" stroke="#10b981" stroke-width="3" stroke-dasharray="6 4"/>
+  <!-- Waypoint Pin -->
+  <g transform="translate(330, 240)">
+    <path d="M0 0 C-12 -12 -12 -28 0 -28 C12 -28 12 -12 0 0 Z" fill="#ef4444" filter="url(#softShadow)"/>
+    <circle cx="0" cy="-18" r="5" fill="#ffffff"/>
+  </g>
+  <!-- Compass Floating -->
+  <g transform="translate(230, 170)">
+    <circle cx="0" cy="0" r="28" fill="#0f172a" stroke="#f59e0b" stroke-width="3"/>
+    <polygon points="0,-20 6,0 0,4 -6,0" fill="#ef4444"/>
+    <polygon points="0,20 6,0 0,-4 -6,0" fill="#cbd5e1"/>
+  </g>
+  <text x="300" y="380" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Explore Trending Spaces</text>
+
+</svg>

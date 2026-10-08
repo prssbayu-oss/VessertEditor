@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="warnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="600" height="450" rx="28" fill="url(#bgGrad)"/>
+  <rect width="600" height="450" rx="28" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+
+  <!-- Subtle floor shadow and horizon -->
+  <ellipse cx="300" cy="390" rx="220" ry="24" fill="#000000" opacity="0.3"/>
+
+  <!-- Security Shield & Keyhole -->
+  <circle cx="300" cy="200" r="120" fill="#10b981" opacity="0.12"/>
+  <!-- Heavy Security Shield -->
+  <path d="M300 90 L380 130 C380 230 300 290 300 290 C300 290 220 230 220 130 Z" fill="url(#greenGrad)" filter="url(#softShadow)"/>
+  <!-- Inner Shield Contrast -->
+  <path d="M300 108 L366 142 C366 226 300 274 300 274 Z" fill="#ffffff" opacity="0.2"/>
+  <!-- Brass Padlock in Center -->
+  <rect x="276" y="180" width="48" height="40" rx="8" fill="#ffffff"/>
+  <path d="M284 180 V164 A 16 16 0 0 1 316 164 V180" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <circle cx="300" cy="196" r="5" fill="#065f46"/>
+  <path d="M299 196 V208" stroke="#065f46" stroke-width="3"/>
+  <text x="300" y="380" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">End-to-End Security</text>
+
+</svg>

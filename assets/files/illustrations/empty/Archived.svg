@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="warnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="600" height="450" rx="28" fill="url(#bgGrad)"/>
+  <rect width="600" height="450" rx="28" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+
+  <!-- Subtle floor shadow and horizon -->
+  <ellipse cx="300" cy="390" rx="220" ry="24" fill="#000000" opacity="0.3"/>
+
+  <!-- Archive Cardboard Box with Open Flaps -->
+  <polygon points="180,200 300,240 420,200 300,160" fill="#334155"/>
+  <polygon points="180,200 300,240 300,320 180,270" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+  <polygon points="420,200 300,240 300,320 420,270" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+  <!-- Open flaps -->
+  <polygon points="180,200 140,170 260,130 300,160" fill="#475569"/>
+  <polygon points="420,200 460,170 340,130 300,160" fill="#334155"/>
+  <text x="300" y="380" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#f8fafc" text-anchor="middle">Archive is Empty</text>
+  <text x="300" y="405" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">Archived posts and files will stay safely here</text>
+
+</svg>

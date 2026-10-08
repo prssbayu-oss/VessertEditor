@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="warnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="600" height="450" rx="28" fill="url(#bgGrad)"/>
+  <rect width="600" height="450" rx="28" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+
+  <!-- Subtle floor shadow and horizon -->
+  <ellipse cx="300" cy="390" rx="220" ry="24" fill="#000000" opacity="0.3"/>
+
+  <!-- Outgoing Broadcast / Paper Plane / Social Share -->
+  <circle cx="300" cy="190" r="120" fill="#3b82f6" opacity="0.12"/>
+  <!-- Flight Path Dashed Arc -->
+  <path d="M140 310 Q 240 100 440 140" fill="none" stroke="#60a5fa" stroke-width="3" stroke-dasharray="8 6"/>
+  <!-- Origami Paper Plane -->
+  <g transform="translate(380, 140) rotate(-15)">
+    <polygon points="0,-40 60,30 -60,10 -10,-5" fill="url(#primaryGrad)" filter="url(#softShadow)"/>
+    <polygon points="0,-40 0,25 60,30" fill="#93c5fd"/>
+    <polygon points="0,-40 -10,-5 0,25" fill="#3b82f6"/>
+  </g>
+  <!-- Share Platform Badges -->
+  <circle cx="160" cy="270" r="22" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+  <path d="M152 270 L168 262 L168 278 Z" fill="#38bdf8"/>
+  <circle cx="230" cy="320" r="18" fill="#1e293b" stroke="#ec4899" stroke-width="2"/>
+  <circle cx="230" cy="320" r="7" fill="#ec4899"/>
+  <text x="300" y="380" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">Share Your Vision Instantly</text>
+
+</svg>
