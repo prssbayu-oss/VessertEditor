@@ -1,34 +1,18 @@
-================================================================================
 Vessert Typography & Font Bundle
-================================================================================
 
-Overview:
----------
-This bundle contains modern, highly legible WOFF2 web fonts used across the
-Vessert UI and development ecosystem: Inter by Rasmus Andersson and Roboto Mono
-by Christian Robertson.
+Overview
+This bundle contains modern WOFF2 web fonts: Inter by Rasmus Andersson and Roboto Mono by Christian Robertson.
 
-Font Family Inventory:
-----------------------
-1. Inter (Sans-serif)
-   - Inter-Regular.woff2    (Weight: 400)
-   - Inter-Medium.woff2     (Weight: 500)
-   - Inter-SemiBold.woff2   (Weight: 600)
-   - Inter-Bold.woff2       (Weight: 700)
-   - Inter-Italic.woff2     (Weight: 400, Italic)
+Inventory
+Inter Sans-Serif: Regular, Medium, SemiBold, Bold, Italic
+Roboto Mono: Regular, Medium, Bold
 
-2. Roboto Mono (Monospace)
-   - RobotoMono-Regular.woff2  (Weight: 400)
-   - RobotoMono-Medium.woff2   (Weight: 500)
-   - RobotoMono-Bold.woff2     (Weight: 700)
+License & Commercial Rights
+SIL Open Font License 1.1 (OFL)
+Free for personal, commercial, and enterprise usage without royalty fees.
 
-Format Specifications:
-----------------------
-- Format: WOFF2 (Web Open Font Format 2.0) with Brotli compression
-- Unicode Range: Latin, Latin-ext, Symbols
-- Optimization: Subpixel hinting, high-DPI font metrics
-
-License:
---------
-SIL Open Font License, 1.1 (OFL)
-Free for commercial and personal usage.
+Official & Commercial Links
+Official Inter Project: https://rsms.me/inter/
+Official Roboto Mono: https://fonts.google.com/specimen/Roboto+Mono
+Commercial License Details: https://openfontlicense.org/
+Google Fonts Commercial Terms: https://developers.google.com/fonts/faq
